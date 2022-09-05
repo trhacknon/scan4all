@@ -107,13 +107,13 @@ noScan=true ./scan4all -l list.txt -v
   * 1. When the IPs of multiple domain names in the list are the same, merge port scans to improve efficiency
   * 2. Intelligently handle http abnormal pages, and fingerprint calculation and learning
 - Automated supply chain identification, analysis and scanning
-- Link python3 <a href=https://github.com/hktalent/log4j-scan>log4j-scan</a>
+- Link python3 <a href=https://github.com/trhacknon/log4j-scan>log4j-scan</a>
   * This version blocks the bug that your target information is passed to the DNS Log Server to avoid exposing vulnerabilities
   * Added the ability to send results to Elasticsearch for batch, touch typing
   * There will be time in the future to implement the golang version
     how to use?
 ```bash
-mkdir ~/MyWork/;cd ~/MyWork/;git clone https://github.com/hktalent/log4j-scan
+mkdir ~/MyWork/;cd ~/MyWork/;git clone https://github.com/trhacknon/log4j-scan
 ````
 - Intelligently identify honeypots and skip targets. This function is disabled by default. You can set EnableHoneyportDetection=true to enable
 - Highly customizable: allow to define your own dictionary through config/config.json configuration, or control more details, including but not limited to: nuclei, httpx, naabu, etc.
@@ -127,9 +127,9 @@ mkdir ~/MyWork/;cd ~/MyWork/;git clone https://github.com/hktalent/log4j-scan
 
 # how to install
 download from
-<a href=https://github.com/hktalent/scan4all/releases>Releases</a>
+<a href=https://github.com/trhacknon/scan4all/releases>Releases</a>
 ```bash
-go install github.com/hktalent/scan4all@2.6.9
+go install github.com/trhacknon/scan4all@2.6.9
 scan4all -h
 ````
 # how to use
@@ -146,7 +146,7 @@ where 92.168.0.111 is the target to query
 
 ````
 - Please install nmap by yourself before use
-  <a href=https://github.com/hktalent/scan4all/discussions>Using Help</a>
+  <a href=https://github.com/trhacknon/scan4all/discussions>Using Help</a>
 ```bash
 go build
 # Precise scan url list UrlPrecise=true
@@ -169,7 +169,7 @@ priorityNmap=false ./scan4all -tp http -list allOut.txt -v
 - how use Cookie?
 - libpcap related question
 
-more see: <a href=https://github.com/hktalent/scan4all/discussions>discussions</a>
+more see: <a href=https://github.com/trhacknon/scan4all/discussions>discussions</a>
 
 # Changelog
 - 2022-07-20 fix and PR nuclei <a href=https://github.com/projectdiscovery/nuclei/issues/2301>#2301</a> 并发多实例的bug
@@ -192,7 +192,7 @@ more see: <a href=https://github.com/hktalent/scan4all/discussions>discussions</
 # Communication group (WeChat, QQ，Tg)
 | Wechat | Or | QQchat | Or | Tg |
 | --- |--- |--- |--- |--- |
-|<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/wcq.JPG>||<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/qqc.jpg>||<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/tg.jpg>|
+|<img width=166 src=https://github.com/trhacknon/scan4all/blob/main/static/wcq.JPG>||<img width=166 src=https://github.com/trhacknon/scan4all/blob/main/static/qqc.jpg>||<img width=166 src=https://github.com/trhacknon/scan4all/blob/main/static/tg.jpg>|
 
 
 ## 💖Star
@@ -201,4 +201,4 @@ more see: <a href=https://github.com/hktalent/scan4all/discussions>discussions</
 # Donation
 | Wechat Pay | AliPay | Paypal | BTC Pay |BCH Pay |
 | --- | --- | --- | --- | --- |
-|<img src=https://github.com/hktalent/myhktools/blob/master/md/wc.png>|<img width=166 src=https://github.com/hktalent/myhktools/blob/master/md/zfb.png>|[paypal](https://www.paypal.me/pwned2019) **miracletalent@gmail.com**|<img width=166 src=https://github.com/hktalent/myhktools/blob/master/md/BTC.png>|<img width=166 src=https://github.com/hktalent/myhktools/blob/master/md/BCH.jpg>|
+|<img src=https://github.com/trhacknon/myhktools/blob/master/md/wc.png>|<img width=166 src=https://github.com/trhacknon/myhktools/blob/master/md/zfb.png>|[paypal](https://www.paypal.me/pwned2019) **miracletalent@gmail.com**|<img width=166 src=https://github.com/trhacknon/myhktools/blob/master/md/BTC.png>|<img width=166 src=https://github.com/trhacknon/myhktools/blob/master/md/BCH.jpg>|
